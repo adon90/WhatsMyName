@@ -2194,6 +2194,20 @@
          "category" : "social",
          "valid" : true,
          "comments" : ["verified - 20160509 - webbreacher"]
-      }
+      },
+         {
+         "name" : "diablo2latino",
+         "check_uri" : "http://www.diablo2latino.com//user.php?op=userinfo&uname={account}",
+         "account_existence_code" : "200",
+         "account_existence_string" : "Usuario registrado",
+         "account_missing_string" : "disponible",
+         "account_missing_code" : "200",
+         "known_accounts" : ["Tyrael-DII","RAY-ZD"],
+         "allowed_types" : ["String","Person","WebAccount","Username"],
+         "category" : "gaming",
+         "valid" : true,
+         "comments" : ["verified - 20160729 - webbreacher"]
+}
+
    ]
 }
